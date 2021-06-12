@@ -4,7 +4,6 @@ import {
   faComment,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
-import React from "react";
 import styled from "styled-components";
 import { Icon } from "../Icon";
 import { ReactComponent as LogoOLX } from "../../assets/Svg/olx-logo.svg";
@@ -29,7 +28,7 @@ const ButtonContainer = styled.div`
   }
 `;
 
-const Button = styled.button`
+const AnnounceButton = styled.button`
   width: 140px;
   height: 45px;
   border-radius: 80px;
@@ -52,7 +51,7 @@ const Header = () => (
       <Icon icon={faThLarge} label="Meus Anúncios" />
       <Icon icon={faComment} label="Chat" />
       <Icon icon={faUser} label="Entrar" />
-      <Button value="Anunciar">Anunciar</Button>
+      <AnnounceButton value="Anunciar">Anunciar</AnnounceButton>
     </ButtonContainer>
   </HeaderContainer>
 );

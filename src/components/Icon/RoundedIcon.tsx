@@ -8,10 +8,12 @@ const Container = styled.div`
   width: 100px;
   display: table;
   text-align: center;
+  margin-right: 10px;
 `;
 
 const IconContainer = styled.div`
   margin: auto;
+  margin-bottom: 10px;
   font-size: 36px;
   border-radius: 50%;
   color: #4d4d4d;
