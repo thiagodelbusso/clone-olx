@@ -10,7 +10,7 @@ import {
 
 const MainSearch = () => (
   <SearchContainer>
-    <StyledInputText placeholder="Estou procurando por..." />
+    <StyledInputText placeholder="Estou procurando por.." />
     <Separator />
     <StyledSearchButton>
       <Icon icon={faSearch} pointer hoverColor="white" />
